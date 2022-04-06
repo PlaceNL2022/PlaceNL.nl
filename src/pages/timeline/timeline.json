@@ -1,0 +1,57 @@
+[
+    {
+        "id": "reddit-announcement",
+        "date": "2022-03-28T12:00:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "Reddit kondigt terugkomst van r/place aan",
+                "description": "Reddit kondigt in een <a href='https://www.redditinc.com/blog/april-fools-on-reddit-is-no-joke-bringing-back-r-place' class='timeline-link' target='_blank'>blogpost</a> aan dat r/place na vijf jaar terug zal komen op 1 april."
+            }
+        }
+    },
+    {
+        "id": "discord-creation",
+        "date": "2022-03-29T20:30:00.000Z",
+        "icon": "discord",
+        "content": {
+            "nl": {
+                "title": "De r/placeNL Discord server word aangemaakt",
+                "description": "Roze, de enige nog actieve r/placeNL moderator, maakt een Discord server aan."
+            }
+        }
+    },
+    {
+        "id": "discord-first-member",
+        "date": "2022-03-30T12:05:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "Eerste lid in de Discord server",
+                "description": "Het eerste lid joint de Discord server, theelicht. <img src='https://i.noah.pm/vF4M8x.png' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "reddit-place-opened",
+        "date": "2022-04-01T13:00:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "r/place opent",
+                "description": "Het is eindelijk zover. Reddit opent r/place. Tussen de chaos ontstaan al snel vlaggen en kleine kunstwerken."
+            }
+        }
+    },
+    {
+        "id": "first-bot-protoype",
+        "date": "2022-04-01T20:20:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Eerste versie script",
+                "description": "De allereerste versie van PlaceNL's script word ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
+            }
+        }
+    }
+]
