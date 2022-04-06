@@ -19,3 +19,7 @@
 .timeline-link:active {
     color: #3a6fae;
 }
+
+.timeline-image {
+    border-radius: 5px;
+}

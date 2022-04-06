@@ -25,7 +25,12 @@ function getTimelineContents() {
             <div className='timeline-content'>
                 <h6>{new Date(entry.date).toLocaleTimeString([], { year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false })}</h6>
                 <h2 className='text-xl'>{content.title}</h2>
-                <p className='leading-relaxed' dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content.description) }} />
+                <p className='leading-relaxed' dangerouslySetInnerHTML={{
+                    __html: DOMPurify.sanitize(content.description, {
+                        ADD_TAGS: ['iframe'],
+                        ADD_ATTR: ['sandbox', 'scrolling']
+                    })
+                }} />
             </div>
         </div>;
     });
@@ -41,7 +46,7 @@ function getIcon(icon) {
 
         // Icons
         case 'community': return circle('#BC4B04', <FontAwesomeIcon icon={faPeopleGroup} color='#FFFFFF' fixedWidth={true} />);
-        case 'automation': return circle('#BC4B04', <FontAwesomeIcon icon={faCode} color='#FFFFFF' fixedWidth={true} />);
+        case 'automation': return circle('#0b824a', <FontAwesomeIcon icon={faCode} color='#FFFFFF' fixedWidth={true} />);
 
         default: return circle('#232DFE', <FontAwesomeIcon icon={faQuestion} color='#FFFFFF' fixedWidth={true} />);
     };

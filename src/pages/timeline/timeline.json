@@ -28,7 +28,7 @@
         "content": {
             "nl": {
                 "title": "Eerste lid in de Discord server",
-                "description": "Het eerste lid joint de Discord server, theelicht. <img src='https://i.noah.pm/vF4M8x.png' width='512'>"
+                "description": "Het eerste lid joint de Discord server, theelicht. <img src='https://i.noah.pm/vF4M8x.png' class='timeline-image' width='512'>"
             }
         }
     },
@@ -39,18 +39,139 @@
         "content": {
             "nl": {
                 "title": "r/place opent",
-                "description": "Het is eindelijk zover. Reddit opent r/place. Tussen de chaos ontstaan al snel vlaggen en kleine kunstwerken."
+                "description": "Het is eindelijk zover. Reddit opent r/place. Tussen de chaos ontstaan al snel vlaggen en kleine kunstwerken. Er zijn in totaal zestien kleuren beschikbaar."
             }
         }
     },
     {
-        "id": "first-bot-protoype",
+        "id": "first-bot-prototype",
         "date": "2022-04-01T20:20:00.000Z",
         "icon": "automation",
         "content": {
             "nl": {
                 "title": "Eerste versie script",
-                "description": "De allereerste versie van PlaceNL's script word ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
+                "description": "De allereerste versie van PlaceNL's script word ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' class='timeline-image' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
+            }
+        }
+    },
+    {
+        "id": "bot-new-backend",
+        "date": "2022-04-02T11:10:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Nieuw script controlsysteem",
+                "description": "Het vorige controlesysteem was haastig opgezet en miste een hoop belangrijke functies zoals instant templates kunnen pushen en kunnen zien hoeveel mensen er momenteel online zijn. Met het nieuwe systeem kan exact worden bijgehouden hoeveel mensen actief bezig zijn en kunnen moderators zelf templates pushen, zelfs als zij geen ervaring met scripts en GitHub hebben, wat bij het vorige systeem wel nodig was. <img src='https://i.noah.pm/8bDnKy.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "bot-headless-node",
+        "date": "2022-04-02T14:20:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Headless script",
+                "description": "Een zogeheten 'headless' versie van het script komt uit, waardoor mensen het kunnen draaien zonder een browser nodig te hebben."
+            }
+        }
+    },
+    {
+        "id": "canvas-expansion-2x1",
+        "date": "2022-04-02T16:25:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "r/place verdubbelt in grootte",
+                "description": "Compleet onverwacht veranderd het canvas van grootte; rechts van het originele canvas verschijnt een nieuw compleet wit gebied. Ook worden er acht nieuwe kleuren toegevoegd, voor een totaal van vierentwintig. Binnen een halfuur zijn de scripts van r/placeNL geupdated om ook dit deel van het canvas te beschermen. <img src='https://i.noah.pm/k94htH.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "bot-first-attack",
+        "date": "2022-04-02T20:30:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Aanval op commando server",
+                "description": "Er word misbruik gemaakt van een kleine fout in het systeem dat alle scripts aanstuurt, waardoor het te sloom reageert om mee te kunnen verbinden. Scripts blijven een kwartier lang zelfstandig hun huidige template plaatsen, tot een admin online komt om het probleem op te lossen. <img src='https://i.noah.pm/gipu3f.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "bot-headless-python",
+        "date": "2022-04-03T05:45:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Headless script in Python",
+                "description": "Een tweede headless script komt uit, deze keer geschreven in de programmeertaal Python, een taal die in Nederland is ontwikkeld!"
+            }
+        }
+    },
+    {
+        "id": "canvas-expansion-2x2",
+        "date": "2022-04-03T19:05:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "r/place verdubbelt opnieuw in grootte",
+                "description": "Het canvas veranderd opnieuw verdubbeld van grootte; onderaan de map verschijnt een nieuw wit gebied van 2000x1000 pixels, het canvas is nu in totaal 2000x2000 pixels. Weer worden er acht nieuwe kleuren toegevoegd, voor een totaal van tweeëndertig. Een klein uurtje later zijn alle scripts van r/placeNL weer up-to-date om dit nieuwe canvas te kunnen ondersteunen. <img src='https://i.noah.pm/dfjhDx.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "bot-second-attack",
+        "date": "2022-04-03T13:20:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Aanval op commando server",
+                "description": "Opnieuw word er misbruik gemaakt van een kleine fout in de commando server om deze te laten crashen. Het probleem word binnen één minuut opgelost."
+            }
+        }
+    },
+    {
+        "id": "bot-emergency-update",
+        "date": "2022-04-04T02:40:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "Reddit update VS scripts",
+                "description": "Door een update van Reddit werken de scripts van r/placeNL niet meer. Dit word, om half vijf s'nachts, snel gefixt door <a href='https://github.com/K0enM' class='timeline-link' target='_blank'>K0enM</a>. Ontzettend bedankt Koen! ❤️"
+            }
+        }
+    },
+    {
+        "id": "bot-ddos",
+        "date": "2022-04-04T21:35:00.000Z",
+        "icon": "automation",
+        "content": {
+            "nl": {
+                "title": "DDoS-aanval op commando server",
+                "description": "Het IP-adres van de commando server word gevonden door een groep tegenstanders van r/placeNL. Deze groep overbelastte de server met netwerkverkeer van ongeveer één Gigabit per seconde. Deze groep is veel te ver gegaan en heeft meerdere wetten overtreden door deze aanval uit te voeren. Er word een nieuwe server gedoneert door <a href='https://github.com/stingalleman' class='timeline-link' target='_blank'>Sting</a>, die binnen een halfuur volledig is opgezet om de commando server te kunnen draaien. Ontzettend bedankt Sting, zonder jou hadden we deze laatste nacht van r/place mogelijk niet overleefd! ❤️"
+            }
+        }
+    },
+    {
+        "id": "only-white",
+        "date": "2022-04-04T22:50:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "There is only white",
+                "description": "Gebruikers kunnen alleen nog maar witte pixels op het canvas plaatsen, wat tot totale paniek lijdt. De Franse vlag gaat als eerste ten onder. <img src='https://i.noah.pm/5GJfNl.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "the-end",
+        "date": "2022-04-05T00:00:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "Terug naar het begin",
+                "description": "Alle pixels op het canvas zijn nu wit gekleurd. We zijn weer terug naar hoe alles begon. <iframe id='reddit-embed' src='https://www.redditmedia.com/r/place/comments/twljrm/antivoid_the_end_of_rplace/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark' sandbox='allow-scripts allow-same-origin allow-popups' style='border: none;' scrolling='no' width='640' height='619'></iframe>"
             }
         }
     }
