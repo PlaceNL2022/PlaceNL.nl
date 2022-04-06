@@ -16,7 +16,7 @@
         "icon": "discord",
         "content": {
             "nl": {
-                "title": "De r/placeNL Discord server word aangemaakt",
+                "title": "De r/placeNL Discord server wordt aangemaakt",
                 "description": "Roze, de enige nog actieve r/placeNL moderator, maakt een Discord server aan."
             }
         }
@@ -50,7 +50,7 @@
         "content": {
             "nl": {
                 "title": "Eerste versie script",
-                "description": "De allereerste versie van PlaceNL's script word ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' class='timeline-image' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
+                "description": "De allereerste versie van PlaceNL's script wordt ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' class='timeline-image' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
             }
         }
     },
@@ -94,7 +94,7 @@
         "content": {
             "nl": {
                 "title": "Aanval op commando server",
-                "description": "Er word misbruik gemaakt van een kleine fout in het systeem dat alle scripts aanstuurt, waardoor het te sloom reageert om mee te kunnen verbinden. Scripts blijven een kwartier lang zelfstandig hun huidige template plaatsen, tot een admin online komt om het probleem op te lossen. <img src='https://i.noah.pm/gipu3f.png' class='timeline-image' width='512'>"
+                "description": "Er wordt misbruik gemaakt van een kleine fout in het systeem dat alle scripts aanstuurt, waardoor het te sloom reageert om mee te kunnen verbinden. Scripts blijven een kwartier lang zelfstandig hun huidige template plaatsen, tot een admin online komt om het probleem op te lossen. <img src='https://i.noah.pm/gipu3f.png' class='timeline-image' width='512'>"
             }
         }
     },
@@ -127,7 +127,7 @@
         "content": {
             "nl": {
                 "title": "Aanval op commando server",
-                "description": "Opnieuw word er misbruik gemaakt van een kleine fout in de commando server om deze te laten crashen. Het probleem word binnen één minuut opgelost."
+                "description": "Opnieuw wordt er misbruik gemaakt van een kleine fout in de commando server om deze te laten crashen. Het probleem wordt binnen één minuut opgelost."
             }
         }
     },
@@ -138,7 +138,7 @@
         "content": {
             "nl": {
                 "title": "Reddit update VS scripts",
-                "description": "Door een update van Reddit werken de scripts van r/placeNL niet meer. Dit word, om half vijf s'nachts, snel gefixt door <a href='https://github.com/K0enM' class='timeline-link' target='_blank'>K0enM</a>. Ontzettend bedankt Koen! ❤️"
+                "description": "Door een update van Reddit werken de scripts van r/placeNL niet meer. Dit wordt, om half vijf s'nachts, snel gefixt door <a href='https://github.com/K0enM' class='timeline-link' target='_blank'>K0enM</a>. Ontzettend bedankt Koen! ❤️"
             }
         }
     },
@@ -149,7 +149,7 @@
         "content": {
             "nl": {
                 "title": "DDoS-aanval op commando server",
-                "description": "Het IP-adres van de commando server word gevonden door een groep tegenstanders van r/placeNL. Deze groep overbelastte de server met netwerkverkeer van ongeveer één Gigabit per seconde. Deze groep is veel te ver gegaan en heeft meerdere wetten overtreden door deze aanval uit te voeren. Er word een nieuwe server gedoneert door <a href='https://github.com/stingalleman' class='timeline-link' target='_blank'>Sting</a>, die binnen een halfuur volledig is opgezet om de commando server te kunnen draaien. Ontzettend bedankt Sting, zonder jou hadden we deze laatste nacht van r/place mogelijk niet overleefd! ❤️"
+                "description": "Het IP-adres van de commando server wordt gevonden door een groep tegenstanders van r/placeNL. Deze groep overbelastte de server met netwerkverkeer van ongeveer één Gigabit per seconde. Deze groep is veel te ver gegaan en heeft meerdere wetten overtreden door deze aanval uit te voeren. Er wordt een nieuwe server gedoneert door <a href='https://github.com/stingalleman' class='timeline-link' target='_blank'>Sting</a>, die binnen een halfuur volledig is opgezet om de commando server te kunnen draaien. Ontzettend bedankt Sting, zonder jou hadden we deze laatste nacht van r/place mogelijk niet overleefd! ❤️"
             }
         }
     },
