@@ -1,16 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
-import TimelinePage from './pages/timeline/TimelinePage.js';
+import App from './App';
 
-ReactDOM.render(
-    <BrowserRouter>
-        <div>
-            <Routes>
-                <Route path='/timeline' element={<TimelinePage />} />
-            </Routes>
-        </div>
-    </BrowserRouter>,
-    document.getElementById('root')
-);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
