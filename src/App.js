@@ -1,5 +1,6 @@
-import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import OrderHistoryPage from './pages/orderhistory/OrderHistoryPage';
 import TimelinePage from './pages/timeline/TimelinePage';
 
 export default () => (
@@ -7,6 +8,7 @@ export default () => (
         <BrowserRouter>
             <div>
                 <Routes>
+                    <Route path='/orderhistory' element={<OrderHistoryPage />} />
                     <Route path='/timeline' element={<TimelinePage />} />
                 </Routes>
             </div>

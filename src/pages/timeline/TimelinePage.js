@@ -4,7 +4,7 @@ import DOMPurify from 'dompurify';
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckToSlot, faCode, faHandshake, faListCheck, faPaintBrush, faPeopleGroup, faQuestion, } from '@fortawesome/free-solid-svg-icons';
+import { faCheckToSlot, faCode, faHandshake, faListCheck, faPaintBrush, faPeopleGroup, faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 import timeline from './timeline.json';
@@ -19,7 +19,8 @@ export default class TimelinePage extends React.Component {
     getTimelineContents() {
         return timeline.map((entry) => {
             const content = entry.content[language];
-            return <div key={entry.id} id={entry.id} className='flex gap-2 mb-5'>
+
+            return <div key={entry.id} id={entry.id} className='flex gap-2 mb-5 mt-5'>
                 <div className='timeline-icon'>
                     {this.getIcon(entry.icon)}
                 </div>
@@ -60,6 +61,7 @@ export default class TimelinePage extends React.Component {
 
     render() {
         return <div className='m-auto w-5/6 md:w-3/4'>
+            <h1 className='text-2xl'>Tijdlijn</h1>
             {this.getTimelineContents()}
         </div>;
     }
