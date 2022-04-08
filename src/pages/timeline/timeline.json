@@ -89,23 +89,12 @@
     },
     {
         "id": "placing-placenl-logo",
-        "date": "2022-04-01T13:33:00.000Z",
+        "date": "2022-04-01T15:44:00.000Z",
         "icon": "community",
         "content": {
             "nl": {
                 "title": "\"r/placenl\" wordt geplaatst",
                 "description": "Na meerdere gefaalde pogingen om de tekst \"/placenl\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
-            }
-        }
-    },
-    {
-        "id": "reddit-place-opened",
-        "date": "2022-04-01T13:00:00.000Z",
-        "icon": "reddit",
-        "content": {
-            "nl": {
-                "title": "r/place opent",
-                "description": "Het is eindelijk zover. Reddit opent r/place. Tussen de chaos ontstaan al snel vlaggen en kleine kunstwerken. Er zijn in totaal zestien kleuren beschikbaar."
             }
         }
     },
