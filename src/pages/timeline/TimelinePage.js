@@ -4,7 +4,7 @@ import DOMPurify from 'dompurify';
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faPeopleGroup, faQuestion, } from '@fortawesome/free-solid-svg-icons';
+import { faCheckToSlot, faCode, faHandshake, faListCheck, faPaintBrush, faPeopleGroup, faQuestion, } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 import timeline from './timeline.json';
@@ -45,9 +45,14 @@ export default class TimelinePage extends React.Component {
             case 'discord': return circle('#5865F2', <FontAwesomeIcon icon={faDiscord} color='#FFFFFF' fixedWidth={true} />);
             case 'reddit': return circle('#FF4500', <FontAwesomeIcon icon={faReddit} color='#FFFFFF' fixedWidth={true} />);
 
+            // TODO: Tweak colors
             // Icons
+            case 'art': return circle('#434FA1', <FontAwesomeIcon icon={faPaintBrush} color='#FFFFFF' fixedWidth={true} />);
+            case 'ally': return circle('#9801B4', <FontAwesomeIcon icon={faHandshake} color='#FFFFFF' fixedWidth={true} />);
+            case 'automation': return circle('#0B824A', <FontAwesomeIcon icon={faCode} color='#FFFFFF' fixedWidth={true} />);
             case 'community': return circle('#BC4B04', <FontAwesomeIcon icon={faPeopleGroup} color='#FFFFFF' fixedWidth={true} />);
-            case 'automation': return circle('#0b824a', <FontAwesomeIcon icon={faCode} color='#FFFFFF' fixedWidth={true} />);
+            case 'planning': return circle('#54AAD9', <FontAwesomeIcon icon={faListCheck} color='#FFFFFF' fixedWidth={true} />);
+            case 'vote': return circle('#5CA402', <FontAwesomeIcon icon={faCheckToSlot} color='#FFFFFF' fixedWidth={true} />);
 
             default: return circle('#232DFE', <FontAwesomeIcon icon={faQuestion} color='#FFFFFF' fixedWidth={true} />);
         };

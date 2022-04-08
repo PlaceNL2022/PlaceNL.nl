@@ -35,7 +35,7 @@
     {
         "id": "voting-starting-point",
         "date": "2022-04-01T11:10:00.000Z",
-        "icon": "community",
+        "icon": "vote",
         "content": {
             "nl": {
                 "title": "Stemming over startpositie",
@@ -57,7 +57,7 @@
     {
         "id": "exact-starting-position",
         "date": "2022-04-01T13:15:00.000Z",
-        "icon": "community",
+        "icon": "planning",
         "content": {
             "nl": {
                 "title": "Exacte startpositie bepaald",
@@ -68,7 +68,7 @@
     {
         "id": "fix-starting-position",
         "date": "2022-04-01T13:20:00.000Z",
-        "icon": "community",
+        "icon": "planning",
         "content": {
             "nl": {
                 "title": "Correctie gemaakt in startpositie",
@@ -79,7 +79,7 @@
     {
         "id": "abandoning-starting-position",
         "date": "2022-04-01T13:35:00.000Z",
-        "icon": "community",
+        "icon": "art",
         "content": {
             "nl": {
                 "title": "Aansluiten bij andere vlag",
@@ -90,11 +90,11 @@
     {
         "id": "placing-placenl-logo",
         "date": "2022-04-01T15:45:00.000Z",
-        "icon": "community",
+        "icon": "art",
         "content": {
             "nl": {
                 "title": "\"r/placenl\" wordt geplaatst",
-                "description": "Na meerdere gefaalde pogingen om de tekst \"/placenl\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
+                "description": "Na meerdere gefaalde pogingen om de tekst \"r/placenl\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
             }
         }
     },
