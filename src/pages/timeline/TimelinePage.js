@@ -29,7 +29,7 @@ export default class TimelinePage extends React.Component {
                     <p className='leading-relaxed' dangerouslySetInnerHTML={{
                         __html: DOMPurify.sanitize(content.description, {
                             ADD_TAGS: ['iframe'],
-                            ADD_ATTR: ['sandbox', 'scrolling']
+                            ADD_ATTR: ['sandbox', 'scrolling', 'target']
                         })
                     }} />
                 </div>

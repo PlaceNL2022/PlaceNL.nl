@@ -50,7 +50,7 @@
         "content": {
             "nl": {
                 "title": "Eerste versie script",
-                "description": "De allereerste versie van PlaceNL's script wordt ontwikkeld. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' class='timeline-image' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
+                "description": "De allereerste versie van PlaceNL's script wordt ontwikkeld door <a href='https://github.com/NoahvdAa' class='timeline-link' target='_blank'>Noah</a>. Het systeem haalt automatisch opdrachten op, momenteel alleen het onderhouden van de Nederlandse vlag. <img src='https://i.noah.pm/o91N2i.png' class='timeline-image' width='512'> Fun fact: PlaceNL was het eerste team dat op een grote schaal werkende automatisering had!"
             }
         }
     },
