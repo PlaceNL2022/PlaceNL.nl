@@ -33,6 +33,72 @@
         }
     },
     {
+        "id": "voting-starting-point",
+        "date": "2022-04-01T11:11:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "Stemming over startpositie",
+                "description": "Er is een stemming over de startpositie. We besluiten samen te werken met de Scandinaviërs, en zullen onder ze beginnen. <img src='https://cdn.discordapp.com/attachments/440212728619991040/961995953328496700/unknown.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "reddit-place-opened",
+        "date": "2022-04-01T13:00:00.000Z",
+        "icon": "reddit",
+        "content": {
+            "nl": {
+                "title": "r/place opent",
+                "description": "Het is eindelijk zover. Reddit opent r/place. Tussen de chaos ontstaan al snel vlaggen en kleine kunstwerken. Er zijn in totaal zestien kleuren beschikbaar."
+            }
+        }
+    },
+    {
+        "id": "exact-starting-position",
+        "date": "2022-04-01T13:13:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "Exacte startpositie bepaald",
+                "description": "Er is te laat begonnen met plannen. Terwijl r/place al is begonnen wachten we nog steeds op de exacte start coördinaten. Wanneer we deze eindelijk ontvangen wordt er snel een afbeelding gemaakt. <img src='https://cdn.discordapp.com/attachments/440212728619991040/961995953328496700/unknown.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "fix-starting-position",
+        "date": "2022-04-01T13:22:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "Correctie gemaakt in startpositie",
+                "description": "Door de chaos zijn de x- en y-coördinaten per ongeluk omgedraaid. Er is een nieuwe afbeelding gestuurd. <img src='https://cdn.discordapp.com/attachments/959327978175725588/959442760853778442/unknown.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "abandoning-starting-position",
+        "date": "2022-04-01T13:33:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "Aansluiten bij andere vlag",
+                "description": "Terwijl er wordt geprobeerd de slechte start te herstellen begint zich rechtsboven op het canvas al snel een Nederlandse vlag te vormen. Met de grote Oekraïnse vlag in aantocht bij de originele startpositie is deze plek onveilig, en daarom sluiten we ons aan bij de vlag rechtsboven. <img src='https://cdn.discordapp.com/attachments/959327978175725588/959445426090672208/unknown.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
+        "id": "placing-placenl-logo",
+        "date": "2022-04-01T13:33:00.000Z",
+        "icon": "community",
+        "content": {
+            "nl": {
+                "title": "\"r/placenl\" wordt geplaatst",
+                "description": "Na meerdere gefaalde pogingen om de tekst \"/placenl\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
+            }
+        }
+    },
+    {
         "id": "reddit-place-opened",
         "date": "2022-04-01T13:00:00.000Z",
         "icon": "reddit",
