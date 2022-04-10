@@ -1,0 +1,11 @@
+.homepage-hero {
+    background-image: url(https://media.discordapp.net/banners/958464581699768380/a_a0f6f9a67350267d4888a87ee31ad992.gif?size=512);
+    background-size: cover;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 85vh;
+}

@@ -1,0 +1,25 @@
+.timeline-icon::after {
+    content: "";
+    background-color: #63738a;
+    display: block;
+    width: 2px;
+    height: 100%;
+    margin: auto;
+}
+
+.timeline-link {
+    color: #5198ef;
+    text-decoration: underline;
+}
+
+.timeline-link:hover {
+    color: #4785d2;
+}
+
+.timeline-link:active {
+    color: #3a6fae;
+}
+
+.timeline-image {
+    border-radius: 5px;
+}
