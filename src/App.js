@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import HomePage from './pages/HomePage';
 import OrderHistoryPage from './pages/orderhistory/OrderHistoryPage';
 import TimelinePage from './pages/timeline/TimelinePage';
 
@@ -14,6 +15,7 @@ export default () => (
                 <Routes>
                     <Route path='/orderhistory' element={<OrderHistoryPage />} />
                     <Route path='/timeline' element={<TimelinePage />} />
+                    <Route path='/' element={<HomePage />} />
                 </Routes>
             </div>
             <Footer />
