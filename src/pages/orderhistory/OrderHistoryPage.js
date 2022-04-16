@@ -19,7 +19,7 @@ export default class OrderHistoryPage extends React.Component {
         fetch('https://2022-order-history.placenl.nl/data.min.json').then(async (res) => {
             const data = await res.json();
 
-            data.mapHistory.reverse();
+            //data.mapHistory.reverse();
 
             this.setState({
                 data
@@ -32,18 +32,23 @@ export default class OrderHistoryPage extends React.Component {
     }
 
     getMapHistoryContents() {
-        return this.state.data.mapHistory.map((entry) => <div className='md:flex gap-2 mb-5 mt-5' id={entry.file}>
-            <LazyLoadImage alt={entry.reason} placeholder={<Spinner />} src={`https://2022-order-history.placenl.nl/maps/${entry.file}`} width={512} height={entry.date >= 1648918955127 && entry.date <= 1649011535759 ? 256 : 512} className='max-w-full border-2 border-white rounded' />
-            <div>
-                <h5 className='text-gray-400'>{new Date(entry.date).toLocaleString()}</h5>
-                <h3 className='text-2xl'>{entry.reason}</h3>
-                <p>
-                    <a href={`https://2022-order-history.placenl.nl/maps/${entry.file}`} download={entry.file} className='text-blue-400'><FontAwesomeIcon icon={faDownload} /> Template downloaden</a>
-                    <br />
-                    <a href={`https://2022-order-history.placenl.nl/maps/${entry.file}`} rel='noreferrer' target='_blank' className='text-blue-400'><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Template openen (in nieuw tablad)</a>
-                </p>
+        var i = 0;
+        return this.state.data.mapHistory.map((entry) => {
+            // Skip first empty canvas.
+            if (i++ === 0) return;
+            return <div className='md:flex gap-2 mb-5 mt-5' id={entry.file}>
+                <LazyLoadImage alt={entry.reason} placeholder={<Spinner />} src={`https://2022-order-history.placenl.nl/maps/${entry.file}`} width={512} height={entry.date >= 1648918955127 && entry.date <= 1649011535759 ? 256 : 512} className='max-w-full border-2 border-white rounded' />
+                <div>
+                    <h5 className='text-gray-400'>{new Date(entry.date).toLocaleString()}</h5>
+                    <h3 className='text-2xl'>{entry.reason}</h3>
+                    <p>
+                        <a href={`https://2022-order-history.placenl.nl/maps/${entry.file}`} download={entry.file} className='text-blue-400'><FontAwesomeIcon icon={faDownload} /> Template downloaden</a>
+                        <br />
+                        <a href={`https://2022-order-history.placenl.nl/maps/${entry.file}`} rel='noreferrer' target='_blank' className='text-blue-400'><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Template openen (in nieuw tablad)</a>
+                    </p>
+                </div>
             </div>
-        </div>);
+        });
     }
 
     render() {

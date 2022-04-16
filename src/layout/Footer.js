@@ -8,7 +8,7 @@ export default () => <div className='bg-gray-800 p-5 sm:flex gap-2 absolute bott
     </div>
     <div className='flex-auto text-center sm:text-right text-xl'>
         <a href='https://github.com/PlaceNL' target='_blank' rel='noreferrer' className='pr-2'><FontAwesomeIcon icon={faGithub} /></a>
-        <a href='https://discord.gg/PlaceNL' target='_blank' rel='noreferrer' className='pr-2'><FontAwesomeIcon icon={faDiscord} /></a>
+        <a href='https://discord.gg/rbGsJzNQvs' target='_blank' rel='noreferrer' className='pr-2'><FontAwesomeIcon icon={faDiscord} /></a>
         <a href='https://reddit.com/r/PlaceNL' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faReddit} /></a>
     </div>
 </div>;
