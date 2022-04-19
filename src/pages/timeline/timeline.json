@@ -17,7 +17,7 @@
         "content": {
             "nl": {
                 "title": "De r/placeNL Discord server wordt aangemaakt",
-                "description": "Roze, de enige nog actieve r/placeNL moderator, maakt een Discord server aan."
+                "description": "Roze, de enige nog actieve moderator van de oude r/placeNL subreddit, maakt een Discord server aan."
             }
         }
     },
@@ -93,8 +93,8 @@
         "icon": "art",
         "content": {
             "nl": {
-                "title": "\"r/placenl\" wordt geplaatst",
-                "description": "Na meerdere gefaalde pogingen om de tekst \"r/placenl\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
+                "title": "\"r/placeNL\" wordt geplaatst",
+                "description": "Na meerdere gefaalde pogingen om de tekst \"r/placeNL\" boven onze vlag te plaatsen wordt er een spreadsheet gemaakt waarbij iedereen een positie kan invullen waar zij een pixel zullen plaatsen. Er wordt afgeteld, en het plan is een groot succes. <img src='https://cdn.discordapp.com/attachments/440212728619991040/962002447239360522/unknown.png' class='timeline-image' width='512'><img src='https://cdn.discordapp.com/attachments/440212728619991040/962002956100718602/unknown.png' class='timeline-image' width='512'>"
             }
         }
     },
@@ -214,7 +214,7 @@
         "icon": "reddit",
         "content": {
             "nl": {
-                "title": "There is only white",
+                "title": "Let there be white",
                 "description": "Gebruikers kunnen alleen nog maar witte pixels op het canvas plaatsen, wat tot totale paniek lijdt. De Franse vlag gaat als eerste ten onder. <img src='https://i.noah.pm/5GJfNl.png' class='timeline-image' width='512'>"
             }
         }
@@ -227,6 +227,28 @@
             "nl": {
                 "title": "Terug naar het begin",
                 "description": "Alle pixels op het canvas zijn nu wit gekleurd. We zijn weer terug naar hoe alles begon. <iframe id='reddit-embed' src='https://www.redditmedia.com/r/place/comments/twljrm/antivoid_the_end_of_rplace/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark' sandbox='allow-scripts allow-same-origin allow-popups' style='border: none;' scrolling='no' width='640' height='619'></iframe>"
+            }
+        }
+    },
+    {
+        "id": "minecraft-announcement",
+        "date": "2022-04-09T17:40:00.000Z",
+        "icon": "minecraft",
+        "content": {
+            "nl": {
+                "title": "Minecraft-server aangekondigd",
+                "description": "Na een poll met een overduidelijke meerderheid aan stemmen voor het idee, begint het werk aan een r/placeNL Minecraft-server."
+            }
+        }
+    },
+    {
+        "id": "minecraft-launch",
+        "date": "2022-04-13T18:00:00.000Z",
+        "icon": "minecraft",
+        "content": {
+            "nl": {
+                "title": "Minecraft-server opent",
+                "description": "Slechts een paar dagen na de aankondiging opent de Minecraft-server al. Binnen een paar minuten zijn er 94 spelers online."
             }
         }
     }
